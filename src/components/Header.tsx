@@ -5,10 +5,7 @@ export default function MainHeader() {
   const headerRoutes = routes.filter((route) => route.createHeader);
 
   return (
-    <nav
-      className="bg-black text-text-light border-striking border-b-2"
-      role="navigation"
-    >
+    <nav className="bg-bg-norse border-bg-quartz border-b-2" role="navigation">
       <ul className="flex list-none w-full p-0 m-0 max-md:flex-col max-md:w-full md:flex-wrap md:justify-center xl:flex-nowrap">
         {headerRoutes.map((route) => (
           <li
@@ -18,7 +15,7 @@ export default function MainHeader() {
             <NavLink
               to={route.path || "/"}
               end={route.path === "" || route.path === "/index"}
-              className="block text-text-light no-underline whitespace-nowrap overflow-hidden text-ellipsis transition-all duration-300 hover:text-gray-300 [&.active]:font-bold"
+              className="block overflow-hidden text-ellipsis transition-all duration-300 hover:text-gray-300 [&.active]:font-bold text-text-flavor"
             >
               {route.header || "Dashboard"}
             </NavLink>

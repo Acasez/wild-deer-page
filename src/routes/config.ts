@@ -10,7 +10,7 @@ interface RouteConfig {
 
 export const routes: RouteConfig[] = [
   {
-    path: "/wilddeer/",
+    path: "/wilddeer/WildDeer",
     component: lazy(() => import("../pages/WildDeer")),
     header: "Wild Deer",
     createHeader: true,
