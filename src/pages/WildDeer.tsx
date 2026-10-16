@@ -11,9 +11,9 @@ export default function WildDeer() {
       </div>
       <img src="./images/DeerPhoto.jpg"></img>
       <p className="text-center">
-        No, I haven't completely copied your web page in React. That would have
-        taken way too long. But here is my application as Web Designer for
-        VillRein.
+        Hi, I'm Edvin Skogsholm Sanne. <br /> No, I haven't completely copied
+        your web page in React. That would have taken way too long. But here is
+        my application as Web Designer for VillRein.
       </p>
     </>
   );
