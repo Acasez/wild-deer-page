@@ -15,7 +15,7 @@ export const routes: RouteConfig[] = [
     header: "Wild Deer",
     createHeader: true,
   },
-  /* {
+  {
     path: "/wilddeer/Maps",
     component: lazy(() => import("../pages/Maps")),
     header: "Maps",
@@ -32,5 +32,5 @@ export const routes: RouteConfig[] = [
     component: lazy(() => import("../pages/Contact")),
     header: "Contact",
     createHeader: true,
-  }, */
+  },
 ];
