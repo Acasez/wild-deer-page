@@ -7,12 +7,34 @@ export default function WildDeer() {
       <Helmet>
         <title>Wild Deer - Villrein.no</title>
       </Helmet>
-      <div className="absolute top-30 left-1/2 -translate-x-1/2 p-3 px-5 bg-gray-800/30 rounded-2xl">
-        <h1 className="text-center text-5xl text-text-light">Hej</h1>
+      <div className="relative">
+        {" "}
+        <div className="absolute top-30 left-1/2 -translate-x-1/2 p-3 px-5 bg-gray-800/30 rounded-2xl z-10">
+          <h1 className="text-center text-5xl text-text-light">Hej</h1>
+        </div>
+        <img src="./images/DeerPhoto.jpg" className="w-full" />
+        <svg
+          className="absolute bottom-0 left-0 w-full h-24 pointer-events-none"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1000 100"
+          preserveAspectRatio="none"
+        >
+          <path
+            className="fill-white/33"
+            d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z"
+          />
+          <path
+            className="fill-white/66"
+            d="M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z"
+          />
+          <path
+            className="fill-white"
+            d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"
+          />
+        </svg>
       </div>
-      <img src="./images/DeerPhoto.jpg"></img>
-      <div className="bg-gray-200">
-        <p className="text-center text-xl bold">
+      <div className="bg-gray-100 mt-3">
+        <p className="text-center text-xl bold underline">
           Hi, I'm Edvin Skogsholm Sanne.
         </p>
         <p className="text-center mx-70">
@@ -41,20 +63,19 @@ export default function WildDeer() {
           few illustrators on the project, and collaborated on game board and
           card layout and design.
         </p>
+        <div className="flex flex-row justify-center gap-5">
+          <LinkCard
+            url="https://mariestad.se/nyheter/nyhetsarkiv/2024-06-03-klimatspelet-mariestad-bidrar-till-den-grona-omstallningen"
+            label="Municipality Project Page"
+          />
+        </div>
         <p className="text-center mt-3 mb-5 mx-70">
           I've worked one my different other projects too, mostly games of
           different sorts. You can find and read all about them on my portfolio
           linked below. I've also linked the web page for Kastorix, an TTRPG
-          (tabletop roleplaying game) I'm creating. The web page features
-          interactive character sheets and and more.
-        </p>
-        <p className="text-center mt-3 mb-5 mx-70">
-          As I mentioned earlier I think your web page is already pretty good,
-          and I would like to help make it even better. While I'm mostly a city
-          person, I really like nature and can't live without taking long walks
-          in nature every so often. Informing people about nature is extremely
-          creatures important, especially in this day. And I can't deny that
-          deer are <i>majestic creatures</i>.
+          (tabletop roleplaying game) I'm creating. The web page has lore pages
+          and maps, an interactive character sheets for player character and DM
+          Screen to create monsters and run the game.
         </p>
         <div className="flex flex-row justify-center gap-5">
           <LinkCard url="https://acasez.github.io/" label="Portfolio Page" />
@@ -63,6 +84,23 @@ export default function WildDeer() {
             label="Kastorix TTRPG"
           />
         </div>
+        <p className="text-center mt-3 mb-5 mx-70">
+          As I mentioned earlier I think your web page is already pretty good,
+          and I would like to help make it even better. I think this job would a
+          great job for me too to get some proffional experience, and I wouldn't
+          mind continuing working on the web page after a year given the
+          opportunity. I also think my experience and skills could help improve
+          the page. <br />
+          While I'm mostly a city person, I really like nature and can't live
+          without taking long walks in nature every so often. Informing people
+          about nature is extremely creatures important, especially when climate
+          change is destabilizing it. And I can't deny that deer are{" "}
+          <i>majestic creatures</i>.
+        </p>
+        <p className="text-center mt-3 mb-5 mx-70">
+          Thanks for reading, and I'll hopefully see on you an interview.{" "}
+          <span className="font-semibold">Ha de bra!</span>
+        </p>
       </div>
     </>
   );

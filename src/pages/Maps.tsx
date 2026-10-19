@@ -6,7 +6,10 @@ export default function RPGOverview() {
       <Helmet>
         <title>Maps - Villrein.no</title>
       </Helmet>
-      <p>Maps</p>
+      <h1>
+        I like the interactive maps you have, but I saw multiple UX improvements
+        that could be made on it
+      </h1>
     </>
   );
 }
