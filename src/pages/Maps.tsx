@@ -7,7 +7,9 @@ export default function Maps() {
         <title>Maps - Villrein.no</title>
       </Helmet>
       <div className=" text-text-black">
-        <h1 className="text-xl  mx-30">Place of Improvement One, Maps</h1>
+        <h1 className="text-xl text-center m-2 underline">
+          Place of Improvement One, Maps
+        </h1>
         <img
           src="./images/MapOverview.JPG"
           alt="Map view on the site"

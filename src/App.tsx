@@ -31,19 +31,23 @@ export default function App() {
 
   return (
     <>
-      <HelmetProvider>
-        <ErrorBoundary FallbackComponent={ErrorFallback}>
-          <MainHeader />
-          <Suspense fallback={<div>Loading...</div>}>
-            <Routes>
-              {routes.map(({ path, component: Component }) => (
-                <Route key={path} path={path} element={<Component />} />
-              ))}
-            </Routes>
-          </Suspense>
-          <Footer />
-        </ErrorBoundary>
-      </HelmetProvider>
+      <div className="flex flex-col min-h-screen">
+        <HelmetProvider>
+          <ErrorBoundary FallbackComponent={ErrorFallback}>
+            <MainHeader />
+            <Suspense fallback={<div>Loading...</div>}>
+              <div className="flex-1">
+                <Routes>
+                  {routes.map(({ path, component: Component }) => (
+                    <Route key={path} path={path} element={<Component />} />
+                  ))}
+                </Routes>
+              </div>
+            </Suspense>
+            <Footer />
+          </ErrorBoundary>
+        </HelmetProvider>
+      </div>
     </>
   );
 }

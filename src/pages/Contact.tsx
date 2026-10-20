@@ -6,6 +6,9 @@ export default function Contact() {
       <Helmet>
         <title>Contact - Villrein.no</title>
       </Helmet>
+      <h1 className="text-xl text-center m-2 underline">
+        Place of Improvement One, ???
+      </h1>
       <p>Contact</p>
     </>
   );
