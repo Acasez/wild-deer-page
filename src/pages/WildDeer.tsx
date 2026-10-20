@@ -40,8 +40,9 @@ export default function WildDeer() {
           studied game development for 5 years at Skövde University and have a
           bachelor’s degree in game design, and a master’s in Digital Narration
           and Cultural Heritage. I've also studied fullstack programming at LTU
-          and a courses in UI/UX design. I know multiple different programming
-          languages and frameworks, and quickly learn new ones.
+          and a few courses in things like UI/UX design. I know multiple
+          different programming languages and frameworks, and quickly learn new
+          ones.
         </p>
         <p className="text-center mt-3 mb-5 mx-70">
           My previous experiences include a strategic board game about building
@@ -49,20 +50,20 @@ export default function WildDeer() {
           Sweden. I worked on it between 2022 and 2024 and it was professionally
           published and is now used in education in Mariestad. I led the design
           and development process from first pitch to final product and worked
-          with people at the municipality to make it accurate. I worked with a
-          few illustrators on the project, and collaborated on game board and
-          card layout and design.
+          with people at the municipality to make it accurate. I also worked
+          with a few illustrators on the project, and collaborated on game board
+          and card layout and design.
         </p>
         <div className="flex flex-row justify-center gap-5">
           <LinkCard
             url="https://mariestad.se/nyheter/nyhetsarkiv/2024-06-03-klimatspelet-mariestad-bidrar-till-den-grona-omstallningen"
-            label="Municipality Project Page"
+            label="Mariestad Climate Board Game"
           />
         </div>
         <p className="text-center mt-3 mb-5 mx-70">
           I've worked one my different other projects too, mostly games of
           different sorts. You can find and read all about them on my portfolio
-          linked below. I've also linked the web page for Kastorix, an TTRPG
+          linked below. I've also linked the web page for Kastorix, a TTRPG
           (tabletop roleplaying game) I'm creating. The web page has lore pages
           and maps, an interactive character sheets for player character and DM
           Screen to create monsters and run the game.
@@ -85,7 +86,7 @@ export default function WildDeer() {
           without taking long walks in nature every so often. Informing people
           about nature is extremely creatures important, especially when climate
           change is destabilizing it. And I can't deny that deer are{" "}
-          <i>majestic creatures</i>.
+          <i>majestic</i> creatures.
         </p>
         <p className="text-center mt-3 mb-5 mx-70">
           Thanks for reading, and I'll hopefully see on you an interview.{" "}
