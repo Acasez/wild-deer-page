@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import MapPointer from "../components/Mappointer";
 
 export default function Maps() {
   return (
@@ -54,26 +55,10 @@ export default function Maps() {
           click around and see different areas.
         </p>
       </div>
-      <div className="rounded-lg flex flex-col w-80 h-30 mx-auto border border-bg-obsidian shadow-lg mb-5">
-        <div className="bg-bg-stone text-text-light flex flex-row justify-between">
-          <h1 className="text-lg bold mx-2">Nordfljella villreinområde</h1>
-          <button className="mx-2 cursor-pointer">X</button>
-        </div>
-        <div className="flex flex-wrap">
-          <p className="text-sm mx-2 m-1">
-            Villreinområdet har et samlet tellende areal på ca. 3000 km²...{" "}
-            <a className="text-text-calm underline cursor-pointer">
-              Lær mer her
-            </a>
-          </p>
-        </div>
-        <div className="flex flex-row justify-between mt-auto">
-          <a className="text-text-calm underline mx-2 text-sm cursor-pointer">
-            Zoom till
-          </a>
-          <button className="mx-2 text-lg cursor-pointer">...</button>
-        </div>
-      </div>
+      <MapPointer
+        name={"Nordfljella villreinområde"}
+        desc={"Villreinområdet har et samlet tellende areal på ca. 3000 km²..."}
+      />
     </>
   );
 }
