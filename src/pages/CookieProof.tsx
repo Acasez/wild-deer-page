@@ -30,7 +30,12 @@ export default function Contact() {
         there. So I would would want to look around and set up "Enable Cookies
         to see this" so visitors don't miss videos.
       </p>
-      <p className="mx-50 mt-3">
+      <img
+        src="./images/CookieElement.JPG"
+        alt="Map view on the site"
+        className="w-full"
+      />
+      <p className="mx-50 mb-3">
         Or, even better yet. See where you actually need cookies. They can be
         great for storing data, and are needed for things like login systems to
         work, but to display a video? Shouldn't need to accept a cookie for
