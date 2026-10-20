@@ -29,8 +29,8 @@ export const routes: RouteConfig[] = [
   },
   {
     path: "/wilddeer/Contact",
-    component: lazy(() => import("../pages/Contact")),
-    header: "Contact",
+    component: lazy(() => import("../pages/CookieProof")),
+    header: "Cookie Proof",
     createHeader: true,
   },
 ];

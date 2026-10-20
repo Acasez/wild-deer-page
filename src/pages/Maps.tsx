@@ -26,6 +26,11 @@ export default function Maps() {
           should be something I could set up myself. I have been planning to
           make an interactive map view with similar functionality for my TTRPG
           page, that seems possible from my research.
+          <br />I also want to note that the map on
+          https://villrein.no/villreinomrader/ looks far better than the others,
+          due to the border around it that clearly defines where the interactive
+          area is. Making the map locations on the left highlight the areas on
+          the map would be even better.
         </p>
       </div>
       <div className="text-text-black">

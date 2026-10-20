@@ -7,7 +7,7 @@ export default function Language() {
         <title>Language - Villrein.no</title>
       </Helmet>
       <h1 className="text-xl text-center m-2 underline">
-        Place of Improvement One, Translation
+        Place of Improvement Two, Translation
       </h1>
       <p className="mx-50 mt-3">
         The second improvement suggestion is a bit simpler, get all the pages
