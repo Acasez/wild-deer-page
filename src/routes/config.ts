@@ -18,13 +18,13 @@ export const routes: RouteConfig[] = [
   {
     path: "/wilddeer/Maps",
     component: lazy(() => import("../pages/Maps")),
-    header: "Maps",
+    header: "Map Improvements",
     createHeader: true,
   },
   {
     path: "/wilddeer/ReadMore",
     component: lazy(() => import("../pages/ReadMore")),
-    header: "Read More",
+    header: "Language",
     createHeader: true,
   },
   {
