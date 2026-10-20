@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 
-export default function RPGOverview() {
+export default function Maps() {
   return (
     <>
       <Helmet>

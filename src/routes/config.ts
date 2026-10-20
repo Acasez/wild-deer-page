@@ -23,7 +23,7 @@ export const routes: RouteConfig[] = [
   },
   {
     path: "/wilddeer/ReadMore",
-    component: lazy(() => import("../pages/ReadMore")),
+    component: lazy(() => import("../pages/Language")),
     header: "Language",
     createHeader: true,
   },
