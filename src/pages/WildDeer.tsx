@@ -13,7 +13,11 @@ export default function WildDeer() {
         <div className="absolute top-30 left-1/2 -translate-x-1/2 p-3 px-5 bg-gray-800/30 rounded-2xl z-10">
           <h1 className="text-center text-5xl text-text-light">Hej</h1>
         </div>
-        <img src="./images/DeerPhoto.jpg" className="w-full" />
+        <img
+          src="./images/DeerPhoto.jpg"
+          alt="Deer Photo VillRein.no"
+          className="w-full"
+        />
         <WavyPatterns color="#f3f4f6" />
       </div>
       <div className="bg-gray-100">
@@ -34,7 +38,8 @@ export default function WildDeer() {
           studied game development for 5 years at Skövde University and have a
           bachelor’s degree in game design, and a master’s in Digital Narration
           and Cultural Heritage. I've also studied fullstack programming at LTU
-          and a courses in UI/UX design.
+          and a courses in UI/UX design. I know multiple different programming
+          languages and frameworks, and quickly learn new ones.
         </p>
         <p className="text-center mt-3 mb-5 mx-70">
           My previous experiences include a strategic board game about building
