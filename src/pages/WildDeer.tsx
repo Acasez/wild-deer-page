@@ -10,8 +10,10 @@ export default function WildDeer() {
       </Helmet>
       <div className="relative">
         {" "}
-        <div className="absolute top-30 left-1/2 -translate-x-1/2 p-3 px-5 bg-gray-800/30 rounded-2xl z-10">
-          <h1 className="text-center text-5xl text-text-light">Hej</h1>
+        <div className="absolute top-50 left-1/2 -translate-x-1/2 p-3 px-5 bg-gray-800/40 rounded-lg z-10">
+          <h1 className="text-center text-5xl text-text-light underline">
+            Hej
+          </h1>
         </div>
         <img
           src="./images/DeerPhoto.jpg"
@@ -29,9 +31,9 @@ export default function WildDeer() {
           I gotta say I like the layout and design you have already. Anyway here
           is my application as Web Designer for VillRein. I made this page in
           React with Typescript since that is what I'm most used to, but I can
-          work with Wordpress too. Below you can read about me and why, I'm
-          interested in and would fit well for the job and above you can click
-          on the tabs to see my suggested improvements to the site.
+          work with Wordpress too. Below you can read about me and why I'm
+          interested in and would fit well for the job. Above you can click on
+          the tabs to see my suggested improvements to the site.
         </p>
         <p className="text-center mt-3 mb-5 mx-70">
           I'm a game designer, web developer and programmer from sweden. I’ve
