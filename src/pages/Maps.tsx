@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import MapPointer from "../components/Mappointer";
+import MapPointer from "../components/MapPointer";
 
 export default function Maps() {
   return (
@@ -25,7 +25,7 @@ export default function Maps() {
           hand, if all ESRI is used for is rendering a map with some areas that
           should be something I could set up myself. I have been planning to
           make an interactive map view with similar functionality for my TTRPG
-          page, that seems possible from my research.
+          page, and that seems possible from my research in the topic
           <br />I also want to note that the map on
           https://villrein.no/villreinomrader/ looks far better than the others,
           due to the border around it that clearly defines where the interactive

@@ -32,8 +32,8 @@ export default function WildDeer() {
           is my application as Web Designer for VillRein. I made this page in
           React with Typescript since that is what I'm most used to, but I can
           work with Wordpress too. Below you can read about me and why I'm
-          interested in and would fit well for the job. Above you can click on
-          the tabs to see my suggested improvements to the site.
+          interested in and think I would fit well for the job. Above you can
+          click on the tabs to see my suggested improvements to the site.
         </p>
         <p className="text-center mt-3 mb-5 mx-70">
           I'm a game designer, web developer and programmer from sweden. I’ve
@@ -41,18 +41,19 @@ export default function WildDeer() {
           bachelor’s degree in game design, and a master’s in Digital Narration
           and Cultural Heritage. I've also studied fullstack programming at LTU
           and a few courses in things like UI/UX design. I know multiple
-          different programming languages and frameworks, and quickly learn new
-          ones.
+          different programming languages and frameworks, and can quickly learn
+          new ones.
         </p>
         <p className="text-center mt-3 mb-5 mx-70">
           My previous experiences include a strategic board game about building
           sustainable cities which I made for the municipality of Mariestad in
-          Sweden. I worked on it between 2022 and 2024 and it was professionally
-          published and is now used in education in Mariestad. I led the design
-          and development process from first pitch to final product and worked
-          with people at the municipality to make it accurate. I also worked
-          with a few illustrators on the project, and collaborated on game board
-          and card layout and design.
+          Sweden. I worked on it between 2022 and 2024 until it was
+          professionally published and is now used in education in Mariestad. I
+          led the design and development process from first pitch to final
+          product and worked with people at the municipality to make it
+          accurate, strategic, fun and replayable. I also worked with a few
+          illustrators on the project, and collaborated on game board and card
+          layout and design.
         </p>
         <div className="flex flex-row justify-center gap-5">
           <LinkCard
@@ -61,12 +62,12 @@ export default function WildDeer() {
           />
         </div>
         <p className="text-center mt-3 mb-5 mx-70">
-          I've worked one my different other projects too, mostly games of
-          different sorts. You can find and read all about them on my portfolio
-          linked below. I've also linked the web page for Kastorix, a TTRPG
-          (tabletop roleplaying game) I'm creating. The web page has lore pages
-          and maps, an interactive character sheets for player character and DM
-          Screen to create monsters and run the game.
+          I've worked one my different other projects too, mostly computer games
+          of different genres. You can find and read all about them on my
+          portfolio linked below. I've also linked the web page for Kastorix, a
+          TTRPG (tabletop roleplaying game) I'm creating. The web page has lore
+          pages and maps, an interactive character sheets for player character
+          and DM Screen to create monsters and run the game.
         </p>
         <div className="flex flex-row justify-center gap-5">
           <LinkCard url="https://acasez.github.io/" label="Portfolio Page" />
@@ -78,19 +79,20 @@ export default function WildDeer() {
         <p className="text-center mt-3 mb-5 mx-70">
           As I mentioned earlier I think your web page is already pretty good,
           and I would like to help make it even better. I think this job would a
-          great job for me too to get some proffional experience, and I wouldn't
-          mind continuing working on the web page after a year given the
-          opportunity. I also think my experience and skills could help improve
-          the page. <br />
+          great job for me too to get some professional experience, and I
+          wouldn't mind continuing working on the web page after a year given
+          the opportunity. I also think my experience and skills could help
+          improve the page and get more people informed about the work you do.{" "}
+          <br />
           While I'm mostly a city person, I really like nature and can't live
           without taking long walks in nature every so often. Informing people
-          about nature is extremely creatures important, especially when climate
-          change is destabilizing it. And I can't deny that deer are{" "}
+          about nature is extremely creatures important, especially now while
+          climate change is destabilizing it. And I can't deny that deer are{" "}
           <i>majestic</i> creatures.
         </p>
         <p className="text-center mt-3 mb-5 mx-70">
-          Thanks for reading, and I'll hopefully see on you an interview.{" "}
-          <span className="font-semibold">Ha de bra!</span>
+          Thanks for reading, and I'll hopefully see on you at an interview
+          soon. <span className="font-semibold">Ha de bra!</span>
         </p>
       </div>
     </>

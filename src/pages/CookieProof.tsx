@@ -7,7 +7,7 @@ export default function Contact() {
         <title>CookieProof - Villrein.no</title>
       </Helmet>
       <h1 className="text-xl text-center m-2 underline">
-        Place of Improvement Three, ???
+        Place of Improvement Three, Cookies and Videos
       </h1>
       <p className="mx-50 mt-3">
         I was looking around for a third potential improvement, and found this
@@ -28,19 +28,17 @@ export default function Contact() {
         know I'm not the only one. I saw on the Jakt page there is actually a
         notice to accept cookies in order to be able to interact with the videos
         there. So I would would want to look around and set up "Enable Cookies
-        to see this" so visitors don't miss videos.
+        to see this" so visitors don't miss videos and other fun content. <br />
+        Or, even better yet, see where you actually need cookies. They can be
+        great for storing data, and are needed for things like login systems to
+        work, but to display a video? Shouldn't need to accept a cookie for
+        that.
       </p>
       <img
         src="./images/CookieElement.JPG"
         alt="Map view on the site"
         className="w-full"
       />
-      <p className="mx-50 mb-3">
-        Or, even better yet. See where you actually need cookies. They can be
-        great for storing data, and are needed for things like login systems to
-        work, but to display a video? Shouldn't need to accept a cookie for
-        that.
-      </p>
     </>
   );
 }
